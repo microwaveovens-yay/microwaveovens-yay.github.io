@@ -1,0 +1,4 @@
+# Include .well-known directory so GitHub Pages serves the AASA file
+# Jekyll ignores dot-folders by default; this overrides that behavior.
+include:
+  - .well-known
